@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./style/auth.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="left-container"></div>
+      <div class="right-container">
+        <form action="submit">
+          <div class="container">
+            <h1>Sign up</h1>
+            <div class="input-container">
+              <label for="firstName"> First name </label>
+              <input type="text" id="firstName" name="firstName" />
+            </div>
+            <div class="input-container">
+              <label for="lastName"> Last name </label>
+              <input type="text" id="lastName" name="lastName" />
+            </div>
+            <div class="input-container">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="input-container">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="input-container">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <div class="input-container">
+              <label for="passwordConfirm">Confirm Password</label>
+              <input
+                type="password"
+                id="passwordConfirm"
+                name="passwordConfirm"
+              />
+            </div>
+            <div class="radio-container">
+              <label>Choose Account Type</label>
+
+              <div>
+                <label for="user"> User, need help </label>
+                <input type="radio" id="user" value="user" name="accountType" />
+              </div>
+
+              <div>
+                <label for="professional"
+                  >Professional, want to offer help</label
+                >
+                <input
+                  type="radio"
+                  id="professional"
+                  value="professional"
+                  name="accountType"
+                />
+              </div>
+            </div>
+
+            <button class="submit-button">Sign up</button>
+            <a href="login.html">Already have an account</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
