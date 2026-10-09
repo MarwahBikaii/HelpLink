@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.explore-section{
+    display: grid;
+    grid-template-columns: 560px 800px;
+    height: 100vh;
+    margin-top:80px;
+}
+.filter-container{
+    display: grid;
+    grid-template-columns: 100px 200px 200px ;
+
+}
+.left-container-filter{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    padding:50px;
+    background-color: #b4e7bb;
+}
+.location-container{
+    display: flex;
+    gap:30px;
+    padding-left:100px
+}
+.checkbox-item{
+    margin:10px;
+    display: grid;
+    grid-template-columns: 130px 10px ;
+}
+.availability{
+    display: flex;
+    gap:30px
+}
+.category-container,.urgency-container{
+    display: grid;
+    grid-template-columns: 100px 100px 150px 50px;
+    gap:30px
+}
+
+h4{
+    display: block;
+}

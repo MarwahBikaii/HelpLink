@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Help requests</title>
     <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/requests.css" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
@@ -30,6 +32,47 @@
 
       <a href="" class="get-started">Logout</a>
     </nav>
+     <section class="details-container">
+      
+        <div class="request">
+          <h2>Request1</h2>
+          <h5>Completed At: _-_-__, _:___</h5>
+
+          <h3 class="status">Pending</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            illum consequuntur incidunt magnam mollitia ratione expedita
+            corporis laborum, dolore provident iure exercitationem
+            necessitatibus ullam magni cumque nesciunt, omnis quis nihil?
+          </p>
+          <div class="badges">
+            <h4 class="badge">Career help</h4>
+            <h4 class="badge">Technology</h4>
+          </div>
+
+        
+        </div>
+
+        
+
+    </section>
+
+     <hr>
+
+      <div class="buttons"> for professional Side
+<button class="green-btn"> 
+  Accept
+</button>
+<a class="red-btn" href="rejection.html"> 
+  Reject
+</a>
+      </div>
+      <hr>
+
+      <hr>
+      <h1>Only for user: who submitted the help request</h1>
+      <hr>
 
       <h1>Help Request's History</h1>
 
@@ -58,19 +101,29 @@
           <p>30-2-2026, 12:00pm</p>
         </div>
       </div>
+      
+     
+
     </section>
 
     <section class="feedback">
       <h2>Feedback and rating</h2>
       <div class="feedback-container">
         <label for="rating">Submit your rating /5</label>
-        <input type="range" min="1" max="5" />
+        <input type="range" min="0" max="5" name="rating" id="rating"/>
       </div>
       <div class="feedback-container">
-        <label for="rating">Submit your feedback</label>
-        <textarea type="text"></textarea>
+        <label for="feedback">Submit your feedback</label>
+        <textarea type="text" id="feedback" name="feedback"></textarea>
       </div>
       <button class="submit-button">Submit feedback</button>
-    </section>
+   
+   <section class="rejection-section">
+    <h2>Rejection reason</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab ullam vel. Velit itaque sint porro at dolore ut aliquam nulla doloribus ullam! Minus reiciendis excepturi deserunt tempora omnis at?</p>
+ <h3>Submitted By:</h3>
+ <p>Abed metlej</p>   
+   </section>
+       </section>
   </body>
 </html>

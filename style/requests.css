@@ -58,7 +58,7 @@ h2{
     gap:20px;
 
 }
-.buttons button{
+.buttons button,a{
     min-width:70px;
  padding:5px;
  border: 3px solid transparent;
@@ -74,6 +74,10 @@ h2{
         background-color: red;
     }
    
+.green-btn{
+         background-color: rgb(96, 208, 96);
+
+    }
     #history{
          background-color: rgb(255, 187, 0);
     }

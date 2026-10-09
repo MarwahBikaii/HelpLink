@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/explore.css" />
+        <link rel="stylesheet" href="./style/index.css" />
+
+    <title>Explore Professionals</title>
+  </head>
+  <body>
+      <nav class="navbar">
+      <a href="home.html">
+        <img src="./images/logo.png" alt="HelpLink-logo" />
+      </a>
+      <ul class="link-list">
+        <li><a href="requests.html">Help requests</a></li>
+        <li>
+          <a href="notifications.html"
+            ><i class="bi bi-bell"></i>notifications</a
+          >
+        </li>
+        <li>
+          <a href="profile.html"> <i class="bi bi-person-circle"></i> </a>
+          Profile
+        </li>
+      </ul>
+
+      <a href="" class="get-started">Logout</a>
+    </nav>
+    <section class="explore-section">
+      <div class="left-container-filter">
+        <div class="filter-container">
+         <h4>Skill</h4>
+
+          <div class="left-checkboxes">
+            <div class="checkbox-item">
+              <label for="web-development">Wweb Development</label>
+              <input
+                type="checkbox"
+                name="skill"
+                id="web-development"
+                value="Web Development"
+              />
+            </div>
+
+            <div class="checkbox-item">
+              <label for="app-development">App Development</label>
+              <input
+                type="checkbox"
+                name="skill"
+                id="app-development"
+                value="App Development"
+              />
+            </div>
+          </div>
+
+          <div class="right-checkboxes">
+            <div class="checkbox-item">
+              <label for="graphic-design">Graphic design</label>
+              <input
+                type="checkbox"
+                name="skill"
+                id="graphic-design"
+                value="Graphic design"
+              />
+            </div>
+            <div class="checkbox-item">
+              <label for="Electricity">Electricity</label>
+              <input
+                type="checkbox"
+                name="skill"
+                id="Electricity"
+                value="Electricity"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="filter-container">
+          <h4>Location</h4>
+
+          <div class="location-checkboxes">
+            <div class="checkbox-item">
+              <label for="remote">Remote</label>
+              <input
+                type="checkbox"
+                name="location"
+                id="remote"
+                value="Remote"
+              />
+            </div>
+
+            <div class="checkbox-item">
+              <label for="in-person">In-person</label>
+              <input
+                type="checkbox"
+                name="skill"
+                id="in-person"
+                value="In-person"
+              />
+            </div>
+ </div> </div>
+            <div class="location-container">
+              <div>
+                <label
+                  for="
+            country"
+                >
+                  Country</label
+                >
+                <select name="country" id="country">
+                  <option value="Lebanon">Lebanon</option>
+                </select>
+              </div>
+
+              <div>
+                <label
+                  for="
+            city"
+                >
+                  City</label
+                >
+                <select name="city" id="city">
+                  <option value="Tripoli">Tripoli</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="availability">
+<h4>Availability</h4>  
+            <input
+                type="checkbox"
+                name="availability"
+                id="availability"
+                value="availability"
+              />
+            </div>
+
+            <hr />
+            <p>If professional , show below</p>
+
+            <div class="category-container">
+              <h4>Category</h4>
+
+              <div>
+                <label for="career-help">Career Help</label>
+                <input type="checkbox" name="career-help" id="career-help" />
+              </div>
+
+              <div>
+                <label for="physical-help">Physical Issue Help</label>
+                <input
+                  type="checkbox"
+                  name="physical-help"
+                  id="physical-help"
+                />
+              </div>
+            </div>
+
+            <div class="urgency-container">
+              <h4>Urgency Level</h4>
+
+              <div>
+                <label for="low">Low</label>
+                <input type="radio" name="urgency" id="low" />
+              </div>
+
+              <div>
+                <label for="medium">Medium</label>
+                <input type="radio" name="urgency" id="medium" />
+              </div>
+
+              <div>
+                <label for="high">High</label>
+                <input type="radio" name="urgency" id="high" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-container"></div>
+    </section>
+  </body>
+</html>
