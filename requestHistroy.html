@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help requests</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./style/history.css" />
+  </head>
+  <body>
+   <nav class="navbar">
+  <a href="home.html">
+        <img src="./images/logo.png" alt="HelpLink-logo" />
+      </a>      <ul class="link-list">
+        <li><a href="requests.html">Help requests</a></li>
+        <li>
+          <a href="notifications.html"
+            ><i class="bi bi-bell"></i>notifications</a
+          >
+        </li>
+        <li>
+          <a href="profile.html"> <i class="bi bi-person-circle"></i> </a>
+          Profile
+        </li>
+      </ul>
+
+      <a href="" class="get-started">Logout</a>
+    </nav>
+
+      <h1>Help Request's History</h1>
+
+      <div class="history-container">
+        <div class="event">
+          <h3 class="event-status">Submitted At</h3>
+          <p>2-2-2026, 12:00pm</p>
+        </div>
+        <hr />
+        <div class="event">
+          <h3 class="event-status">Taken At</h3>
+          <p>2-2-2026, 12:00pm</p>
+
+          <h3 class="event-status">Taken By</h3>
+
+          <ul class="takenby">
+            <li>Karim Khalil</li>
+            <li>Safa Khaled</li>
+          </ul>
+          <p>2-2-2026, 12:00pm</p>
+        </div>
+
+        <hr />
+        <div class="event">
+          <h3 class="event-status">Completed At</h3>
+          <p>30-2-2026, 12:00pm</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback">
+      <h2>Feedback and rating</h2>
+      <div class="feedback-container">
+        <label for="rating">Submit your rating /5</label>
+        <input type="range" min="1" max="5" />
+      </div>
+      <div class="feedback-container">
+        <label for="rating">Submit your feedback</label>
+        <textarea type="text"></textarea>
+      </div>
+      <button class="submit-button">Submit feedback</button>
+    </section>
+  </body>
+</html>

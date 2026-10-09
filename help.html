@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get help</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./style/help.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="./images/logo.png" alt="HelpLink-logo" />
+      <ul class="link-list">
+        <li><a href="requests.html">Help requests</a></li>
+        <li>
+          <a href="testimonials"><i class="bi bi-bell"></i>notifications</a>
+        </li>
+        <li>
+          <a href="#contact"> <i class="bi bi-person-circle"></i> </a>
+          Profile
+        </li>
+      </ul>
+
+      <a href="" class="get-started">Logout</a>
+    </nav>
+    <section class="help-request-section">
+      <form action="submit">
+        <h1>Submit a help request</h1>
+
+        <div class="text-input-div">
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" />
+        </div>
+
+        <div class="text-input-div">
+          <label for="desc">Description</label>
+          <textarea type="text" id="desc" name="desc"></textarea>
+        </div>
+
+        <div>
+          <h3>Category</h3>
+
+          <label for="career">Career help</label>
+          <input type="radio" id="career" name="category" />
+          <label for="issue">Physical issue help</label>
+          <input type="radio" id="issue" name="category" />
+        </div>
+
+        <h3>Urgency level</h3>
+        <label for="urgency">Pick Urgency level</label>
+        <select name="urgency" id="urgency">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+
+        <h3>Help type</h3>
+        <label for="Help-type">Pick Help type</label>
+        <select name="Help-type" id="Help-type">
+          <option value="technology">Technology</option>
+          <option value="electricity">Electricity</option>
+          <option value="plumbing">Plumbing</option>
+          <option value="other">Other</option>
+        </select>
+
+        <button class="submit-button">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>

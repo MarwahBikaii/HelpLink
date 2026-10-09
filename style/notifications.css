@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.notifications{
+    margin-top:100px;
+    display:flex;
+    flex-direction: column;
+   
+}
+.notification{
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+    border:3px solid white;
+    border-radius:5px;
+}
+.notification a {
+    background-color: white;
+    padding:8px;
+    border-radius:4px;
+
+}
+.notifications{
+    background-color:#C7CEDB;
+
+}
+#red-not{
+  background-color:rgb(245, 111, 111);
+}
+#green-not{
+  background-color:rgb(76, 195, 76);
+}

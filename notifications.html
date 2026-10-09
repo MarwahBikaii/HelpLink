@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/notifications.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <title>Notifications</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="home.html">
+        <img src="./images/logo.png" alt="HelpLink-logo" />
+      </a>
+      <ul class="link-list">
+        <li><a href="requests.html">Help requests</a></li>
+        <li>
+          <a href="notifications.html"
+            ><i class="bi bi-bell"></i>notifications</a
+          >
+        </li>
+        <li>
+          <a href="profile.html"> <i class="bi bi-person-circle"></i> </a>
+          Profile
+        </li>
+      </ul>
+
+      <a href="" class="get-started">Logout</a>
+    </nav>
+
+    <section class="notifications-section">
+      <div class="notifications">
+        <div class="notification" id="green-not">
+          <p>Professional accepted your help request.</p>
+
+          <a href="details.html">View details</a>
+        </div>
+
+        <div class="notification" id="red-not">
+          <p>Professional rejected your help request.</p>
+          <a href="details.html">View details</a>
+        </div>
+
+        <div class="notification">
+          <p>Marwa Bikai sent you a help request.</p>
+          <a href="details.html">View details</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
