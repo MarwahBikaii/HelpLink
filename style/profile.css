@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.profile-section{
+    margin-top:70px;
+    display: grid;
+    grid-template-columns: 300px 1000px;
+   
+    padding-right:30px
+}
+.sidebar{
+    background-color: black;
+    height:100vh;
+}
+.active-tab{
+    background-color: rgb(76, 195, 76);
+    padding:0;margin:0; height:50px;
+    text-align: center;
+    align-content: center;
+}
+
+h4{
+    margin:20px;
+    margin-left:0;
+}
+.ul-profile{
+    display: flex;
+    gap:30px;
+
+    margin-bottom:30px
+}
+.ul-profile li{
+    background-color: aquamarine;
+    padding:10px;
+    border-radius: 10px;
+}
+.li-sidebar{
+    margin:50px;
+    color:white;
+
+}
+.profile-container{
+    padding:40px;
+    margin-top:30px;
+}
+.profile{
+    display: flex;
+    gap:30px
+}
+.pp{
+    position: relative;
+    border: 3px solid pink;
+    width:150px;
+}
+.red-btn{
+    background-color: rgb(85, 175, 67);
+    color:white;
+    padding:10px;
+    
+    
+}

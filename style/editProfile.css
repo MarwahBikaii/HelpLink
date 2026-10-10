@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.edit-profile-section{
+    margin-top:100px;}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px
+}
+form div{
+    display: grid;
+    grid-template-columns: 100px 400px;
+}
+input{width:200px;}
+.social-media-div{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.location-container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.submit-button{
+    margin-top:30px;
+}
