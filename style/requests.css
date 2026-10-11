@@ -8,6 +8,7 @@ body{
     justify-content: center;
 }
 .requests-container{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: auto;
@@ -83,6 +84,13 @@ h2{
     }
     
 
+    .filter{
+        background-color: aqua;
+        position: absolute;
+        top:15px;
+        right:0;
+        margin-bottom: 10px;
+    }
     @media (max-width:600px){
 .requests-container{
   
