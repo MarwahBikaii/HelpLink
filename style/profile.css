@@ -13,6 +13,7 @@
 .sidebar{
     background-color: black;
     height:100vh;
+    padding-top: 50px;
 }
 .active-tab{
     background-color: rgb(76, 195, 76);
@@ -31,12 +32,20 @@ h4{
 
     margin-bottom:30px
 }
-.ul-profile li{
+.ul-profile li {
     background-color: aquamarine;
     padding:10px;
     border-radius: 10px;
+    color:black
+
+
 }
-.li-sidebar{
+.sidebar-list{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.li-sidebar a{
     margin:50px;
     color:white;
 
@@ -54,10 +63,25 @@ h4{
     border: 3px solid pink;
     width:150px;
 }
-.red-btn{
+.green-btn{
     background-color: rgb(85, 175, 67);
     color:white;
     padding:10px;
     
     
+}
+
+@media (max-width:600px){
+    .profile-section{
+    grid-template-columns: 500px
+}
+.sidebar{
+
+    background-color: black;
+    height:40vh;
+    width: 100vw;
+
+}
+
+
 }

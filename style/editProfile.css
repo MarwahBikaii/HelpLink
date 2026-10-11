@@ -16,6 +16,7 @@ form div{
     grid-template-columns: 100px 400px;
 }
 input{width:200px;}
+
 .social-media-div{
     display: flex;
     flex-direction: column;
@@ -28,4 +29,11 @@ input{width:200px;}
 }
 .submit-button{
     margin-top:30px;
+}
+@media (max-width:600px){
+    form{
+    display: grid;
+    grid-template-columns: 400px;
+    gap:30px
+}
 }

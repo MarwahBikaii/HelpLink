@@ -63,3 +63,22 @@ a{
     color:#94849B;
     margin-top:-30px;
 }
+@media (max-width:600px) {
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh
+    }
+    .left-container{
+        display: none;
+    }
+    .input-container{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 30px;
+}
+   .right-container{
+    padding:20px;
+   }
+}

@@ -13,7 +13,7 @@ body{
 }
 .request{border:none;
     position: relative;
-      grid-template-rows: 70px 50px 50px 30px
+      grid-template-rows: 70px 50px 80px 30px
 }
 .status{
     position: absolute;
@@ -67,4 +67,14 @@ textarea{
     display: flex;
     flex-direction: column;
     gap:50px
+}
+
+@media (max-width:600px){
+    .feedback-container{
+
+    grid-template-columns: 200px;
+    gap:30px
+    }
+
+
 }

@@ -68,3 +68,35 @@ h3{
     font-size: 50px;
     color:#24112d
 }
+
+@media (max-width:600px){
+.user-stats{
+    gap:10px;
+    padding:10px;
+}
+.user-stats div{
+
+ padding:10px;
+ gap:10px;
+}
+.CTA-container{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.left-CTA-container h2{
+    text-align: center;
+    font-size:40px;
+
+}
+.left-CTA-container{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+
+}
+.CTA-a{
+    margin-bottom:30px
+}
+}

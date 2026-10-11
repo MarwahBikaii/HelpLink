@@ -15,15 +15,20 @@
   </head>
   <body>
     <nav class="navbar">
-      <img src="./images/logo.png" alt="HelpLink-logo" />
+      <a href="home.html">
+        <img src="./images/logo.png" alt="HelpLink-logo" />
+      </a>
       <ul class="link-list">
         <li><a href="requests.html">Help requests</a></li>
         <li>
-          <a href="testimonials"><i class="bi bi-bell"></i>notifications</a>
+          <a href="notifications.html"
+            ><i class="bi bi-bell"></i>notifications</a
+          >
         </li>
         <li>
-          <a href="#contact"> <i class="bi bi-person-circle"></i> </a>
-          Profile
+          <a href="profile.html">
+            <i class="bi bi-person-circle"></i> Profile
+          </a>
         </li>
       </ul>
 
@@ -33,26 +38,27 @@
       <form action="submit">
         <h1>Edit Profile</h1>
 
-        <div class="text-input-div firstname">
+        <div></div>
+        <div class="text-input-div">
           <label for="fname">First Name</label>
-          <input type="text" id="fname" name="fname" />
+          <input type="text" id="fname" name="fname" value="Marwa"/>
         </div>
         <div class="text-input-div">
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lname" />
+          <input type="text" id="lname" name="lname"  value="Bikai"/>
         </div>
 
         <div class="input-container">
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" />
+          <input type="email" id="email" name="email"  value="marwahbikai@gmail.com"/>
         </div>
         <div class="input-container">
           <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" />
+          <input type="tel" id="phone" name="phone" value="+961180799"/>
         </div>
         <div class="input-container">
           <label for="password">Password</label>
-          <input type="password" id="password" name="password" />
+          <input type="password" id="password" name="password" value="....." />
         </div>
         <div class="text-input-div">
           <label for="about">About me</label>
@@ -103,8 +109,8 @@
           <input type="file" id="pp" name="pp" />
         </div>
 
-        <div class="cc">  <label for="social-media">
-            <h4>Social media</h4>
+        <div class="cc"> <h4>Social media</h4> <label for="social-media">
+            
             <select name="social-media" id="social-media">
               <option value="Instagram">Instagram</option>
               <option value="LinkedIn">LinkedIn</option>
@@ -116,7 +122,7 @@
         Instagram"
             >URL</label
           >
-          <input type="text" name="Instagram" id="Instagram" />
+          <input type="text" name="Instagram" id="Instagram" value="Instagram.com/marwa-bikai"/>
         </div>
         
          
